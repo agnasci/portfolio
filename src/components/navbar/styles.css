@@ -1,0 +1,46 @@
+.navInit {
+    background-color: inherit;
+    transition-duration: 0.3s;
+}
+
+.navScroll {
+    background-color: var(--white);
+    border-bottom: 2px solid var(--blue);
+    /* transition-duration: 0.3s; */
+}
+
+.buttonNavOff {
+    color: var(--white);
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.buttonNavOff:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+.buttonNavOn {
+    color: var(--darkBlue);
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.buttonNavOn:hover {
+    color: var(--blue);
+    cursor: pointer;
+}
+
+@media (max-width: 420px) {
+    .buttonNavOff,
+    .buttonNavOn {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 281px) {
+    .buttonNavOff,
+    .buttonNavOn {
+        font-size: 9px;
+    }
+}
